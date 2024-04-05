@@ -1,0 +1,12 @@
+.mobile-header {
+  &__top {
+    display: grid;
+    grid-template-columns: 1fr 25px;
+    align-items: center;
+    margin: 0 0 30px;
+
+    @include on1280 {
+      display: none;
+    }
+  }
+}

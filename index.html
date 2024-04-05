@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css"/>
+    <title>Document</title>
+  </head>
+
+  <body class="page__body">
+    <header class="mobile-header">
+      <div class="container">
+        <div class="mobile-header__content">
+          <div class="mobile-header__top">
+            <div class="logo-block">
+              <div class="logo-block__logo-image-container">
+                <img
+                  class="logo-block__logo-image"
+                  alt="Logo"
+                  src="img/header-logo-image.svg"
+                />
+              </div>
+      
+              <div class="logo-block__logo-title">
+                Dashboard
+              </div>
+            </div>
+
+            <a href="#menu" class="icon icon--menu"></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav id="menu" class="mobile-burger-menu page__menu">
+      <div class="container">
+        <div class="mobile-burger-menu__content">
+          <div class="mobile-burger-menu__top">
+            <div class="logo-block">
+              <div class="logo-block__logo-image-container">
+                <img
+                  class="logo-block__logo-image"
+                  alt="Logo"
+                  src="img/header-logo-image.svg"
+                />
+              </div>
+      
+              <div class="logo-block__logo-title">
+                Dashboard
+              </div>
+            </div>
+
+            <a href="#" class="icon icon--cross"></a>
+          </div>
+
+          <div class="mobile-burger-menu__menu-container">
+            <ul class="mobile-burger-menu__list">
+              <li class="mobile-burger-menu__item">
+                <div class="icon icon--dashboard"></div>
+    
+                <a href="#" class="mobile-burger-menu__link">
+                  Dashboard
+                </a>
+              </li>
+    
+              <li class="mobile-burger-menu__item">
+                <div class="icon icon--product"></div>
+    
+                <a href="#" class="mobile-burger-menu__link">
+                  Product
+                </a>
+              </li>
+    
+              <li class="mobile-burger-menu__item mobile-burger-menu__item--active">
+                <div class="icon icon--customers"></div>
+    
+                <a
+                  href="#"
+                  class="mobile-burger-menu__link mobile-burger-menu__link--active"
+                  >
+                  Customers
+                </a>
+              </li>
+    
+              <li class="mobile-burger-menu__item">
+                <div class="icon icon--income"></div>
+    
+                <a href="#" class="mobile-burger-menu__link">
+                  Income
+                </a>
+              </li>
+    
+              <li class="mobile-burger-menu__item">
+                <div class="icon icon--promote"></div>
+    
+                <a href="#" class="mobile-burger-menu__link">
+                  Promote
+                </a>
+              </li>
+    
+              <li class="mobile-burger-menu__item">
+                <div class="icon icon--help"></div>
+    
+                <a href="#" class="mobile-burger-menu__link">
+                  Help
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="avatar-name-container avatar-name-container-mobile">
+            <div class="avatar-name-container__image-ava-container">
+              <img
+                src="img/Avatar.jpg"
+                alt="Ava"
+                class="avatar-name-container__avatar-image"
+              />
+            </div>
+    
+            <div class="avatar-name-container__name-profession-container">
+              <h3 class="avatar-name-container__name">Evano</h3>
+    
+              <p class="avatar-name-container__profession">Project Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="dashboard-customers">
+        <div class="dashboard-customers__left-block">
+          <div class="dashboard-customers__logo-menu-container">
+            <div class="logo-block">
+              <div class="logo-block__logo-image-container">
+                <img
+                  class="logo-block__logo-image"
+                  alt="Logo"
+                  src="img/header-logo-image.svg"
+                />
+              </div>
+      
+              <div class="logo-block__logo-title">
+                Dashboard
+              </div>
+            </div>
+
+            <nav class="dashboard-customers__nav-menu">
+              <ul class="dashboard-customers__list">
+                <li class="dashboard-customers__item">
+                  <div class="icon icon--dashboard"></div>
+
+                  <a href="#" class="dashboard-customers__link">
+                    Dashboard
+                  </a>
+                </li>
+      
+                <li class="dashboard-customers__item">
+                  <div class="icon icon--product"></div>
+
+                  <a href="#" class="dashboard-customers__link">
+                    Product
+                  </a>
+
+                  <div class="icon icon--menu-right-arrow"></div>
+                </li>
+      
+                <li class="dashboard-customers__item dashboard-customers__item--active">
+                  <div class="icon icon--customers"></div>
+
+                  <a
+                    href="#"
+                    class="dashboard-customers__link dashboard-customers__link--active"
+                    >
+                    Customers
+                  </a>
+
+                  <div class="icon icon--menu-right-arrow"></div>
+                </li>
+
+                <li class="dashboard-customers__item">
+                  <div class="icon icon--income"></div>
+
+                  <a href="#" class="dashboard-customers__link">
+                    Income
+                  </a>
+
+                  <div class="icon icon--menu-right-arrow"></div>
+                </li>
+      
+                <li class="dashboard-customers__item">
+                  <div class="icon icon--promote"></div>
+
+                  <a href="#" class="dashboard-customers__link">
+                    Promote
+                  </a>
+
+                  <div class="icon icon--menu-right-arrow"></div>
+                </li>
+
+                <li class="dashboard-customers__item">
+                  <div class="icon icon--help"></div>
+
+                  <a href="#" class="dashboard-customers__link">
+                    Help
+                  </a>
+
+                  <div class="icon icon--menu-right-arrow"></div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          
+          <div class="avatar-name-container">
+            <div class="avatar-name-container__image-ava-container">
+              <img
+                src="img/Avatar.jpg"
+                alt="Ava"
+                class="avatar-name-container__avatar-image"
+              />
+            </div>
+
+            <div class="avatar-name-container__name-profession-container">
+              <h3 class="avatar-name-container__name">Evano</h3>
+
+              <p class="avatar-name-container__profession">Project Manager</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-customers__right-block">
+          <h2 class="dashboard-customers__hello-message">
+            Hello Evano 👋🏼,
+          </h2>
+
+          <div class="dashboard-customers__table-container">
+            <div class="dashboard-customers__title-searchbar-container">
+              <div class="dashboard-customers__title-container">
+                <h2 class="dashboard-customers__table-title">
+                  All Customers
+                </h2>
+
+                <h3 class="dashboard-customers__archive-title">
+                  Active Members
+                </h3>
+              </div>
+
+              <div class="dashboard-customers__searchbar-container">
+                <div class="dashboard-customers__searchbar">
+                  <div class="icon icon--search-glass"></div>
+
+                  <input
+                    type="text"
+                    placeholder="Search"
+                    class="dashboard-customers__search-input"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="dashboard-customers__mobile-table-wrapper">
+              <div class="dashboard-customers__customer-block">
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Customer Name:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Jane Cooper
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Company:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Microsoft
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Phone Number:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    (225) 555-0118
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Email:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    jane@microsoft.com
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Country:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    United States
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Status:
+                  </div>
+
+                  <div class="dashboard-customers__status dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Active
+                  </div>
+                </div>
+              </div>
+
+              <div class="dashboard-customers__customer-block">
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Customer Name:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Floyd Miles
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Company:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Yahoo
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Phone Number:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    (205) 555-0100
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Email:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    floyd@yahoo.com
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Country:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Kiribati
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Status:
+                  </div>
+
+                  <div class="dashboard-customers__status dashboard-customers__status--inactive dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Inactive
+                  </div>
+                </div>
+              </div>
+
+              <div class="dashboard-customers__customer-block">
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Customer Name:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Ronald Richards
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Company:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Adobe
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Phone Number:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    (302) 555-0107
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Email:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    ronald@adobe.com
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Country:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Israel
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Status:
+                  </div>
+
+                  <div class="dashboard-customers__status dashboard-customers__status--inactive dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Inactive
+                  </div>
+                </div>
+              </div>
+
+              <div class="dashboard-customers__customer-block">
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Customer Name:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Marvin McKinney
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Company:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Tesla
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Phone Number:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    (252) 555-0126
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Email:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    marvin@tesla.com
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Country:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Iran
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Status:
+                  </div>
+
+                  <div class="dashboard-customers__status dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Active
+                  </div>
+                </div>
+              </div>
+
+              <div class="dashboard-customers__customer-block">
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Customer Name:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Jerome Bell
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Company:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Google
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Phone Number:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    (629) 555-0129
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Email:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    jerome@google.com
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Country:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Réunion
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Status:
+                  </div>
+
+                  <div class="dashboard-customers__status dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Active
+                  </div>
+                </div>
+              </div>
+
+              <div class="dashboard-customers__customer-block">
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Customer Name:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Kathryn Murphy
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Company:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Microsoft
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Phone Number:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    (406) 555-0120
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Email:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    kathryn@microsoft.com
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Country:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Curaçao
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Status:
+                  </div>
+
+                  <div class="dashboard-customers__status dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Active
+                  </div>
+                </div>
+              </div>
+
+              <div class="dashboard-customers__customer-block">
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Customer Name:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Jacob Jones
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Company:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Yahoo
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Phone Number:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    (208) 555-0112
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Email:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    jacob@yahoo.com
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Country:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Brazil
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Status:
+                  </div>
+
+                  <div class="dashboard-customers__status dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Active
+                  </div>
+                </div>
+              </div>
+
+              <div class="dashboard-customers__customer-block">
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Customer Name:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Kristin Watson
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Company:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Facebook
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Phone Number:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    (704) 555-0127
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Email:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    kristin@facebook.com
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Country:
+                  </div>
+
+                  <div class="dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Åland Islands
+                  </div>
+                </div>
+
+                <div class="dashboard-customers__flex-field-value">
+                  <div class="dashboard-customers__customer-field">
+                    Status:
+                  </div>
+
+                  <div class="dashboard-customers__status dashboard-customers__status--inactive dashboard-customers__customer-field dashboard-customers__customer-field--value">
+                    Inactive
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="dashboard-customers__table-wrapper">
+              <table class="dashboard-customers__table">
+                <thead>
+                  <tr class="dashboard-customers__tr dashboard-customers__tr--head">
+                    <th class="dashboard-customers__td dashboard-customers__td--head">Customer Name</th>
+                    <th class="dashboard-customers__td dashboard-customers__td--head">Company</th>
+                    <th class="dashboard-customers__td dashboard-customers__td--head">Phone Number</th>
+                    <th class="dashboard-customers__td dashboard-customers__td--head">Email</th>
+                    <th class="dashboard-customers__td dashboard-customers__td--head">Country</th>
+                    <th class="dashboard-customers__td dashboard-customers__td--status-head">Status</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr class="dashboard-customers__tr">
+                    <td class="dashboard-customers__td">Jane Cooper</td>
+                    <td class="dashboard-customers__td">Microsoft</td>
+                    <td class="dashboard-customers__td">(225) 555-0118</td>
+                    <td class="dashboard-customers__td">jane@microsoft.com</td>
+                    <td class="dashboard-customers__td">United States</td>
+                    <td class="dashboard-customers__td dashboard-customers__td--status">
+                      <p class="dashboard-customers__status">
+                        Active
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="dashboard-customers__td">Floyd Miles</td>
+                    <td class="dashboard-customers__td">Yahoo</td>
+                    <td class="dashboard-customers__td">(205) 555-0100</td>
+                    <td class="dashboard-customers__td">floyd@yahoo.com</td>
+                    <td class="dashboard-customers__td">Kiribati</td>
+                    <td class="dashboard-customers__td dashboard-customers__td--status">
+                      <p class="dashboard-customers__status dashboard-customers__status--inactive">
+                        Inactive
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="dashboard-customers__td">Ronald Richards</td>
+                    <td class="dashboard-customers__td">Adobe</td>
+                    <td class="dashboard-customers__td">(302) 555-0107</td>
+                    <td class="dashboard-customers__td">ronald@adobe.com</td>
+                    <td class="dashboard-customers__td">Israel</td>
+                    <td class="dashboard-customers__td dashboard-customers__td--status">
+                      <p class="dashboard-customers__status dashboard-customers__status--inactive">
+                        Inactive
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="dashboard-customers__td">Marvin McKinney</td>
+                    <td class="dashboard-customers__td">Tesla</td>
+                    <td class="dashboard-customers__td">(252) 555-0126</td>
+                    <td class="dashboard-customers__td">marvin@tesla.com</td>
+                    <td class="dashboard-customers__td">Iran</td>
+                    <td class="dashboard-customers__td dashboard-customers__td--status">
+                      <p class="dashboard-customers__status">
+                        Active
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="dashboard-customers__td">Jerome Bell</td>
+                    <td class="dashboard-customers__td">Google</td>
+                    <td class="dashboard-customers__td">(629) 555-0129</td>
+                    <td class="dashboard-customers__td">jerome@google.com</td>
+                    <td class="dashboard-customers__td">Réunion</td>
+                    <td class="dashboard-customers__td dashboard-customers__td--status">
+                      <p class="dashboard-customers__status">
+                        Active
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="dashboard-customers__td">Kathryn Murphy</td>
+                    <td class="dashboard-customers__td">Microsoft</td>
+                    <td class="dashboard-customers__td">(406) 555-0120</td>
+                    <td class="dashboard-customers__td">kathryn@microsoft.com</td>
+                    <td class="dashboard-customers__td">Curaçao</td>
+                    <td class="dashboard-customers__td dashboard-customers__td--status">
+                      <p class="dashboard-customers__status">
+                        Active
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="dashboard-customers__td">Jacob Jones</td>
+                    <td class="dashboard-customers__td">Yahoo</td>
+                    <td class="dashboard-customers__td">(208) 555-0112</td>
+                    <td class="dashboard-customers__td">jacob@yahoo.com</td>
+                    <td class="dashboard-customers__td">Brazil</td>
+                    <td class="dashboard-customers__td dashboard-customers__td--status">
+                      <p class="dashboard-customers__status">
+                        Active
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="dashboard-customers__td">Kristin Watson</td>
+                    <td class="dashboard-customers__td">Facebook</td>
+                    <td class="dashboard-customers__td">(704) 555-0127</td>
+                    <td class="dashboard-customers__td">kristin@facebook.com</td>
+                    <td class="dashboard-customers__td">Åland Islands</td>
+                    <td class="dashboard-customers__td dashboard-customers__td--status">
+                      <p class="dashboard-customers__status dashboard-customers__status--inactive">
+                        Inactive
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="dashboard-customers__pagination">
+              <p class="dashboard-customers__showing-data-pagination">
+                Showing data 1 to 8 of 256K entries
+              </p>
+
+              <div class="dashboard-customers__pages-container">
+                <button class="dashboard-customers__page-button dashboard-customers__page-button--left">
+                  <div class="icon icon--left-pagination-arrow"></div>
+                </button>
+
+                <ul class="dashboard-customers__page-list">
+                  <li class="dashboard-customers__page-item">
+                    <a href="#" class="dashboard-customers__page-link dashboard-customers__page-link--active">
+                      1
+                    </a>
+                  </li>
+
+                  <li class="dashboard-customers__page-item">
+                    <a href="#" class="dashboard-customers__page-link">
+                      2
+                    </a>
+                  </li>
+
+                  <li class="dashboard-customers__page-item">
+                    <a href="#" class="dashboard-customers__page-link">
+                      3
+                    </a>
+                  </li>
+
+                  <li class="dashboard-customers__page-item">
+                    <a href="#" class="dashboard-customers__page-link">
+                      4
+                    </a>
+                  </li>
+
+                  <li class="dashboard-customers__page-item">...</li>
+
+                  <li class="dashboard-customers__page-item">
+                    <a href="#" class="dashboard-customers__page-link">
+                      40
+                    </a>
+                  </li>
+                </ul>
+
+                <button class="dashboard-customers__page-button dashboard-customers__page-button--right">
+                  <div class="icon icon--right-pagination-arrow"></div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

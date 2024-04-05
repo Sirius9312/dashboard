@@ -1,0 +1,64 @@
+.icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  padding-bottom: 24px;
+  position: relative;
+  width: 24px;
+
+  &--dashboard {
+    background-image: url(../img/dashboard-icon.svg);
+  }
+
+  &--product {
+    background-image: url(../img/product-icon.svg);
+  }
+  
+  &--customers {
+    background-image: url(../img/product-icon.svg);
+  }
+
+  &--income {
+    background-image: url(../img/income-icon.svg);
+  }
+
+  &--promote {
+    background-image: url(../img/promote-icon.svg);
+  }
+
+  &--help {
+    background-image: url(../img/help-icon.svg);
+  }
+
+  &--menu-right-arrow {
+    padding-bottom: 16px;
+    width: 16px;
+    background-image: url(../img/menu-right-arrow.svg);
+  }
+
+  &--search-glass {
+    padding-bottom: 16px;
+    width: 16px;
+    background-image: url(../img/searchglass-icon.svg);
+  }
+
+  &--left-pagination-arrow {
+    padding-bottom: 12px;
+    width: 8px;
+    background-image: url(../img/left-pagination-arrow.svg);
+  }
+
+  &--right-pagination-arrow {
+    padding-bottom: 12px;
+    width: 8px;
+    background-image: url(../img/right-pagination-arrow.svg);
+  }
+
+  &--menu {
+    background-image: url(../img/menu-icon.svg);
+  }
+
+  &--cross {
+    background-image: url(../img/cross-no-hover.svg);
+  }
+}

@@ -1,0 +1,41 @@
+.logo-block {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+
+  @include on1280 {
+    margin-bottom: 65px;
+  }
+
+  &__logo-image-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo-image {
+    height: 37px;
+    padding: 10px 0;
+
+    @include on1280 {
+      padding: 0;
+    }
+  }
+
+  &__logo-title {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+
+    &::after {
+      content: "v.01";
+      color: #838383;
+      font-family: Poppins;
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 15px;
+      letter-spacing: -0.01em;
+      text-align: left;
+    }
+  }
+}
